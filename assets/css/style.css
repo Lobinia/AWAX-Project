@@ -122,6 +122,7 @@ nav ul li a:visited {
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:5rem;
+	text-align: center;
 }
 .banner .slidearea h1 span {
 	color:var(--laranja);

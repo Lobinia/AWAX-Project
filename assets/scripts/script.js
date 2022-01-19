@@ -11,6 +11,7 @@ document.querySelector('.menu-opener').addEventListener('click', ()=>{
 
 })
 
+
 const autoChangeSlides = () => {
 
     currentSlide++;
