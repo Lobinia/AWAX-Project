@@ -37,18 +37,15 @@ const updateMargin = () => {
 
 };
 
-const timerSlides = setInterval(autoChangeSlides, 4000);
+const slidesTimer = setInterval(autoChangeSlides, 4000);
 
-/*
-@keyframes slides-cima {
-	0% {display:none;}
-	5%  {margin-left: 0;}
-	10% {margin-left:0;}
-	20% {margin-left: 0;}
-	40% {margin-left: -200vw;}
-	50% {margin-left: -200vw;}
-	70% {margin-left: -400vw;}
-	80% {margin-left: -400vw;}
-	100% {margin-left: -700vw;}
-}
-*/
+
+document.querySelectorAll('nav li').forEach(item => {
+    item.addEventListener('click', event => {
+
+        document.querySelector('nav li.active').classList.remove('active');
+
+        event.currentTarget.classList.add('active');
+
+    })
+  })

@@ -71,6 +71,7 @@ nav ul li a {
     padding: 0 1rem;
     height: 10rem;
     border-bottom: 0.5rem solid #000;
+	cursor:pointer;
 }
 nav ul li a:visited {
     color:#FFF;
