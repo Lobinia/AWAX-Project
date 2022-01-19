@@ -12,5 +12,5 @@ Layout credits to AWAX 2016
 ## Preview
 
 <p align="center">
-    <img src="assets/images/preview.png">
+    <img src="media/preview.png">
 </p>
